@@ -16,7 +16,7 @@ def area(im):
     bak = dic
     a = {}
     #print(dic.shape, dic[0], im.shape)
-    for i in range(len(b)):
+    for i in range(len(1)):
         if dic[i, :] not in bak:
             continue
         else:
@@ -24,6 +24,7 @@ def area(im):
             a[len(a) + 1] = temp
             bak = bak[np.logical_not(np.all([bak[:, 0] == temp[0], bak[:, 1] == temp[1]], axis=0))]
             for i in range(8):
+                pass
 
 
 
